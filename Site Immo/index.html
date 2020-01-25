@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ledor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- lien vers une police google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang|Montserrat:300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Conception barre de menu -->
+    <section class="barnoir">
+        <img class="cour" src="couronnelogo.PNG" alt="couronne"/>
+        <h1>Ledor</h1>
+    <!-- nav pour menu -->
+        <nav>
+             <!--liste non ordonnée  -->
+            <ul>
+                <!-- li*3 donne 3 éléments -->
+                <!-- si on utilise href="#" cela renvoie vers un id dans la page  -->
+                <li> <a  class="menu" href="#section2" >Nos offres</a></li>
+                <li> <a  class="menu" href="#section3">Notre équipe</a></li>
+                <li> <a  class="menu" href="#nouscontact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Conception de ma section header -->
+    <header>
+        <div class="entete">
+            <h2>
+            Un <span>immobilier</span> d'exception pour des clients d'exception
+            </h2>
+            <!-- une classe vide pour mettre le tiret en utilisant la bordure -->
+            <div class="tiret">
+            </div>
+            <p class="lorem">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga neque, minus exercitationem libero ullam ipsam aperiam in?
+                 Hic inventore incidunt ex debitis eos porro neque quia? Nihil quas inventore velit.
+            </p>
+        </div>
+    </header> 
+
+    <section id="section2">
+        <h3>
+            Nos dernières offres
+        </h3>
+        <div class="touroffres">
+            <div class="photofr">
+                <img class="photo1" src="images\house-1.jpg" alt="photo1"/>
+                <p>
+                    Appartement - Paris 75007
+                </p>
+                <p>
+                    11 chambres 450 m2
+                </p>
+                <div class="tiret">
+                </div>
+                <p>
+                    3 900 000 € - $4 200 000
+                </p>
+            </div>
+            <div class="photofr">
+                <img class="photo1" src="images\house-2.jpg" alt="photo2"/>
+                <p>
+                    Appartement - Paris 75001
+                </p>
+                <p>
+                    5 chambres 233 m2
+                </p>
+                <div class="tiret">
+                </div>
+                <p>
+                    3 900 000 € - $4 200 000
+                </p>
+            </div>
+            <div class="photofr">
+                <img class="photo1" src="images\house-3.jpg" alt="photo3"/>
+                <p>
+                    Appartement - Paris 75001
+                </p>
+                <p>
+                    5 chambres 233 m2
+                </p>
+                <div class="tiret">
+                </div>
+                <p>
+                    3 900 000 € - $4 200 000
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <div class="2pei">
+            <img class="photo4" src="images\team.jpg" alt="photo4"/>
+        </div>
+        <div class="uneeqip">
+            <div class="uneeqipbis">
+                <h3>
+                    Une équipe de <span>professionnels</span> avec plus de 10 ans d'expérience
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis labore doloremque ducimus laboriosam rerum 
+                    fugit eum consectetur similique, eligendi dolor, dolores error ut aliquid quisquam quasi quam tenetur, at sit. 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quam quod obcaecati quaerat corrupti veritatis 
+                    expedita amet aperiam soluta? Corporis facilis molestias repudiandae sapiente provident fugiat illo cum quia ipsa.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="pensedenous">
+        <h3>
+            Voici ce qu'ils pensent de nous
+        </h3>
+        <div class="pensee">
+            <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, fugit. Aliquam molestiae similique perferendis 
+                laborum blanditiis sequi quis minima aspernatur explicabo? Dolor odit iste consequuntur ratione nostrum beatae ab inventore.</p>
+            <div class="ico">
+                <img class="photo5" src="images\im5.png" alt="photo5"/>
+                <h4>
+                    Jean Dupont
+                </h4>
+                <h5>
+                    CEO étoile
+                </h5>
+            </div>
+        </div>
+        <div class="pensee">
+            <div class="ico">
+                <img class="photo6" src="/images/im6.png" alt="photo6"/>
+                <h4>
+                    Arthur Lac
+                </h4>
+                <h5>
+                    Dévoloppeur Web
+                </h5>
+            </div>
+            <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quisquam eveniet porro! Ad voluptate facilis omnis? 
+                Voluptate dolor alias iure laudantium excepturi minus dolores, quasi consectetur harum totam? Quia, eaque.</p>
+        </div>
+        <div class="pensee">
+            <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, fugit. Aliquam molestiae similique perferendis 
+                laborum blanditiis sequi quis minima aspernatur explicabo? Dolor odit iste consequuntur ratione nostrum beatae ab inventore.</p>
+            <div class="ico">
+                <img class="photo7" src="images\im7.png" alt="photo7"/>
+                <h4>
+                    Julie Roux
+                </h4>
+                <h5>
+                    Dévoloppeuse Web
+                </h5>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Formulaire-->       
+     <section id="nouscontact">
+        <h3 class="quest"> Pour nous <span>contacter</span></h3>
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <label class="formtitle" for="name">Nom :</label><br/>
+                <input class= "formlist" type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label class="formtitle" for="mail">E-mail :</label><br/>
+                <input class= "formlist" type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label class="formtitle" for="msg">Votre message ... :</label><br/>
+                <textarea class= "formlist1" id="msg" name="user_message"></textarea>
+            </div>
+            <a href="#" class="bouton2">SOUMETTRE</a>
+        </form>
+    </section>
+
+    <!--bas de page-->
+    <footer>
+        <P>
+            Copyright © 2019 Guy Vilain, Inc
+        </P>
+    </footer>
+</body>
+</html>

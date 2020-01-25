@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Café Florette</title>
+    <link rel="stylesheet" href="style.css">
+    <meta description="lorem ipsum">
+    <!-- lien vers une police google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Conception barre de menu -->
+    <section class="barnoir"> 
+        <h1>CAFE FLORETTE</h1>
+    <!-- nav pour menu -->
+        <nav>
+             <!--liste non ordonnée  -->
+            <ul>
+                <!-- li*3 donne 3 éléments -->
+                <!-- si on utilise href="#" cela renvoie vers un id dans la page  -->
+                <li> <a  class="menu" href="index.html" id="active">Accueil</a></li>
+                <li> <a  class="menu" href="noustrouver.html">Nous Trouver</a></li>
+                <li> <a  class="menu" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Conception de ma section header -->
+    <header>
+        <div class="entete">
+            <h2>
+            Toute l'expertise française dans un café
+            </h2>
+            <!-- une classe vide pour mettre le tiret en utilisant la bordure -->
+            <div class="tiret">
+            </div>
+            <p class="lorem">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aspernatur nemo cupiditate earum eum porro unde sint ducimus 
+                vero voluptas, perferendis quasi quia accusamus omnis rerum. 
+                Neque sapiente quidem distinctio dolorem? </p>
+            <a href="#" class="bouton">Decouvrir</a>
+        </div>
+    </header>
+
+    <!--Pourquoi id à la place de classe?-->
+    <section class="section2">
+        <!-- on englobe les 2 div suivantes dans une div pour centrer-->
+        <div class="tourcarte">
+            <div class="clock">
+                <img class="icone" src="Image/Tasse.png" alt="Image d'une tasse"/>
+                <h3>Un nouveau café par jour</h3>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque illum, tempora ullam 
+                    eveniet dolorum aliquam iste beatae ea nesciunt temporibus minima maxime suscipit molestias
+                    maiores, ut voluptatem hic tenetur incidunt? 
+                </p>
+            </div>
+            <div class="clock">
+                <img class="icone" src="Image/Time.png" alt="Image d'un réveil"/>
+                <h3>Ouvert 24h/24 7j/7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut et enim quas at tempore 
+                    accusantium eos voluptatibus vero voluptates, deleniti nostrum fugiat neque sit dicta 
+                    nulla ipsam quasi repellendus? Reiciendis. 
+                    </p>
+            </div>
+        </div>
+    </section>
+    <!--section sans structure, uniquement pour background image-->
+    <section class="section3">
+        <!-- <img class="florette">
+        <img src="Image/Florette.jpg" alt="Photo de Florette"/> -->
+    </section>
+    <section class="section4">
+        <h3>
+            Réservez dès maintenant
+        </h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis, harum reiciendis 
+            nostrum cum sapiente dolorum tenetur id cumque officiis iste doloremque autem quis ipsum beatae.
+             Ut totam quas iure?
+        </p>
+        <!--création du bouton-->
+        <a href="#" class="bouton1">RESERVER</a>
+    </section>
+    <!--bas de page-->
+    <footer>
+        <P>
+            Copyright © - florette - 2019
+        </P>
+    </footer>
+</body>
+</html>

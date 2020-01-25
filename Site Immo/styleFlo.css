@@ -1,0 +1,239 @@
+/* remise à zéro des marges */
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+
+.barnoir {
+  background-color: black;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* display inline mais en une ligne */
+h1 {
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+  padding-left: 1em;
+}
+
+/* float met le nav à droite */
+nav {
+  float:right;
+}
+
+nav ul {
+  margin-top: 0.35em;
+  list-style-type:none;
+}
+
+/* display sert à mettre la liste en une ligne */
+nav li{
+  display: inline;
+}
+
+nav a{
+  color: white;
+}
+
+a{
+  text-decoration:none;
+  padding: 1.35em;
+}
+
+/* hover sert à modifier la couleur de l'objet quand la souris passe dessus */
+.menu:hover{
+  background-color: purple;
+}
+#active{
+  background-color: purple;
+}
+
+header {
+  background-image: url("/Image/Cafe.jpg");
+  background-size: cover;
+  padding: 10em 0;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.entete {
+  text-align: center;
+  color: white;
+  width: 33%;
+  margin: auto;
+}
+
+p {
+  padding-top: 0.5em;
+}
+
+/* border-top 0.5em donne l'épaisseur */
+.tiret {
+  margin: 2em auto;
+  border-top: 0.5em solid black;
+  width: 13%;
+}
+
+.bouton {
+  background-color: white;
+  border-radius: 30px;
+  padding: 1em;
+  display: block;
+  margin: 1em auto 0 auto;
+  width: 20%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.section2 {
+  display: flex;
+  text-align: center;
+  padding: 10em 0em;  
+}
+
+.clock{
+  display: inline;
+  width: 100em; 
+  padding: 0 1em;
+}
+
+.icone{
+  width: 20%;
+}
+
+.section3{
+  background-image:url("/Image/Florette.jpg");
+  background-size:cover;
+  padding:8em 0;
+  background-position:center;
+}
+
+.section4{
+  text-align: center;
+  color:black;
+  padding: 10em 0;
+  width: 33%;
+  margin: auto;
+}
+
+/* border-radius sert à arrondir la bordure */
+.bouton1{
+  background-color:black;
+  border-radius: 30px;
+  padding: 1em;
+  display: block;
+  margin: 1em auto 0 auto;
+  width: 20%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:white;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.nouscontact{
+  padding: 10em; 
+  width: 37em;
+  margin: 1em auto 9em auto;
+}
+
+.quest{
+  border-bottom: #cbcbcb;
+  border-bottom-style: solid;
+}
+
+h3{
+  margin: 1em 0;
+}
+
+.formlist{
+  width: 54em;
+  margin: 1em 0;
+  height: 1.5em;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+
+/* taille de la boite à message */
+.formlist1{
+  width: 54em;
+  margin: 1em 0;
+  height: 6em;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+
+.bouton2{
+  background-color:black;
+  border-radius: 30px;
+  padding: 1em;
+  display: block;
+  width: 15%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+
+.carte{
+  display: flex;
+  background-color: white;
+  margin: 17em auto 17em auto;
+}
+
+.tourcarte{
+  width: 50em;
+  display: flex;
+  margin: 0 auto;
+}
+
+.map{
+  margin: 0 -3em 0 0;
+}
+
+.metro{
+  color: black;
+  padding-left: 5em;
+}
+
+.ounous{
+  border-bottom: #cbcbcb;
+  border-bottom-style: solid;
+}
+
+p{
+  font-size: small;
+}
+
+h4{
+  padding: 1em 0;
+}
+
+.chiffre1{
+  color: white;
+  border-radius:60px / 40px;
+  background-color: pink;
+  padding: 0 12px;
+
+}
+
+.chiffre2{
+  color: white;
+  border-radius:60px / 40px;
+  background-color :brown;
+  padding: 0 12px;
+}

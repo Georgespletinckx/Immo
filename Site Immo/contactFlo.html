@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Conception barre de menu -->
+    <section class="barnoir"> 
+        <h1>CAFE FLORETTE</h1>
+    <!-- nav pour menu -->
+        <nav>
+            <!--liste non ordonnée  -->
+            <ul>
+                <!-- li*3 donne 3 éléments -->
+                <!-- si on utilise href="#" cela renvoie vers un id dans la page  -->
+                <li> <a class="menu" href="index.html">Accueil</a></li>
+                <li> <a class="menu" href="noustrouver.html">Nous Trouver</a></li>
+                <li> <a class="menu" href="contact.html" id="active">Contact</a></li>
+            </ul>
+        </nav>
+    </section>   
+ <!-- Formulaire-->   
+    <section class="nouscontact">
+            <h3 class="quest">
+                Une question ? Contactez-nous
+            </h3>
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                    <label class="formtitle" for="name">Nom :</label><br/>
+                    <input class= "formlist" type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label class="formtitle" for="mail">E-mail :</label><br/>
+                    <input class= "formlist" type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label class="formtitle" for="msg">Questions et remarques :</label><br/>
+                    <textarea class= "formlist1" id="msg" name="user_message"></textarea>
+                </div>
+            </form>
+            <a href="#" class="bouton2">SOUMETTRE</a>
+    </section>
+    
+    <footer>
+        <P>
+            Copyright © - florette - 2019
+        </P>
+    </footer>
+</body>
+</html>
