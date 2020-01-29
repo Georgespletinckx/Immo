@@ -1,0 +1,122 @@
+@media screen and (max-width: 700px) {
+
+/* Mis ,en forme de mon menu */
+
+.barnoir{
+    padding-bottom: 7em;
+}
+
+.intro{
+    display: block;
+}
+.cour{
+    width: 10%;
+}
+
+ul,a {
+    list-style-type: none;
+}
+
+li{
+    display: block;
+}
+
+nav{
+    float: left; 
+    font-size: 0.8em;
+}
+
+/* Mise en forme header */
+
+header{
+    padding: 1em ; 
+}
+
+.entete{
+    width: 65%;
+    padding: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.entete p{
+    margin-top: 1em;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+#section2{
+    padding-bottom: 3em;
+}
+
+.touroffres {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr); 
+}
+
+.h31{
+    padding: 1em 4em 1em;
+}
+
+.content p{
+    margin-bottom: 0.5em;
+}
+
+.tiret{
+    margin-bottom: 0.5em; 
+}
+
+#section3{
+    display: block;
+}
+
+.uneeqip{
+    padding: 2em 3em;
+}
+
+.uneeqip p{
+    font-size: 0.8em;
+}
+
+.content2{
+    width: 100%;
+}
+
+.pensedenous h3{
+    padding: 1em 4em;
+}
+
+.pensee{
+    display: block;
+    font-size: 0.8em;
+}
+.pp{
+    margin: 0.5em 1em; 
+    padding:1em;
+}
+
+.ico{
+    padding: 0.5em;
+    margin: auto;
+}
+
+#nouscontact{
+    padding: 2em;
+}
+
+#nouscontact h3{
+    padding-bottom: 0;
+}
+
+form{
+    margin-bottom: 3em;
+}
+
+footer{
+    padding: 0.5em;
+    font-size: 0.8em;
+}
+
+}

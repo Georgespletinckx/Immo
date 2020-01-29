@@ -1,0 +1,242 @@
+/* Normaliser navigateur */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mise en forme font */
+
+h1{
+    font-family: 'Long Cang', cursive;
+    display: inline;
+    font-size: 3em;
+}
+
+h2 h3 h4 h5 h6 p nav ol{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Mise en forme de mon menu */
+
+.barnoir{
+    background-color: #373037;
+    color: white;
+    padding: 1.5em; 
+}
+
+.intro{
+    display: inline;
+}
+
+.cour{
+    width: 2%;
+    margin-left: 2em;
+}
+
+ul,a {
+    text-decoration: none;
+    color: white;
+    padding: 1em 1em;
+}
+
+li{
+    display: inline;
+    font-size: 1.5em;
+}
+
+nav{
+    float: right;
+}
+
+/* Mise en forme header */
+
+header{
+    background-image: url(/images/frame.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20em 0;
+}
+
+.entete{
+    width: 33%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.entete span{
+    color:orange;
+}
+
+h2{
+    font-size: 3em;
+}
+
+.entete p{
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+
+#section2{
+    background-color: rgb(196, 192, 196);
+    padding-bottom: 6em;
+}
+
+.touroffres {
+    width: 65%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+}
+
+.photofr {
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo1{
+    width: 100%;
+}
+
+.h31{
+    padding: 6em 18em 2em;
+}
+
+.content{
+    background-color: white;
+    padding: 2em;
+    text-align: center;
+    margin-top: -1em;
+}
+
+.content p{
+    margin-bottom: 1em;
+}
+
+.tiret{
+    border-bottom: 10px solid black;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#section3{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pei{
+    margin-bottom: -0.23em;
+}
+
+.photo4{
+    
+    width: 100%;
+}
+
+.uneeqip{
+    background-color: black;
+    color: white;
+    padding: 13em 3em;
+}
+
+.uneeqip span{
+    color: orange;
+}
+
+.h32{
+    padding-bottom: 1em;
+}
+
+.pensedenous{
+    background-color: rgb(196, 192, 196);
+}
+
+.content2{
+    margin: auto;
+    width: 65%;
+    padding-bottom: 1em;
+}
+
+.pensedenous h3{
+    padding: 2em 18em;
+}
+
+.pensee{
+    display: flex;
+    background-color: white;
+    margin-bottom: 0.5em;
+}
+.pp{
+    margin: 3em 1em;
+}
+
+.ico{
+    width: 10em;
+    padding-top: 1em;
+    margin-left: 1em;
+}
+
+.photo5{
+    width: 3.5em;
+    border-radius: 3em;
+}
+
+h5{
+    font-style: italic;
+}
+
+#nouscontact{
+    background-color: rgb(46, 46, 46);
+    padding: 5em 40em 7em;
+}
+
+#nouscontact h3 span{
+    color: orange;
+}
+
+#nouscontact h3{
+    padding-bottom: 2em;
+    color:white;
+}
+
+.content3{
+    display: flex;
+    padding: 1em;
+    border-bottom: 2px solid rgb(163, 163, 163);
+     
+}
+
+.formtitle{
+    color:rgb(163, 163, 163);
+}
+
+.formlist{
+    
+    background-color: rgb(46, 46, 46);
+    border: none;
+}
+
+form{
+    margin-bottom: 4em;
+}
+
+.bouton2{
+    border-radius: 3em;
+    border: none;
+    background-color: orange;
+    margin-left: 15em;
+}
+
+footer{
+    background-color: #373037;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
